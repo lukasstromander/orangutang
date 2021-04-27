@@ -1,5 +1,5 @@
 
-//bildspel
+//Bildspel
 var slideIndex = 0;
 showSlides();
 
