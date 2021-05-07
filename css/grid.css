@@ -1,7 +1,7 @@
 .container{
   display:grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(12,200px);
+  grid-auto-rows: minmax(25px, auto);
 }
 
 /*bild på arten*/
@@ -16,7 +16,7 @@
 }
 /*bildspel*/
 .slideshow-container {
-  grid-column: 1/-1;
+  grid-column: 2/6;
   grid-row: 2/4;
 }
 
