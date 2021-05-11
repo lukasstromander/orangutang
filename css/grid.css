@@ -70,6 +70,10 @@ footer {
    grid-row: 6/7;
  }
  /*bild på arten*/
+ .slideshow-container {
+   grid-column: 1/-1;
+   grid-row: 2/3;
+ }
  .img1 {
    grid-column:1/-1;
    grid-row: 2/3;
